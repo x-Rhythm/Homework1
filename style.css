@@ -1,0 +1,240 @@
+.containerForHeaderNav {
+    display: flex;
+    padding-top: 20px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Main>ul {
+    color: white;
+    cursor: pointer;
+    display: flex !important;
+    gap: 21px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 350px;
+    margin-left: 110px;
+    list-style: none;
+    align-items: flex-start;
+}
+
+.Lgo {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentForButton>button {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: #23A6F0;
+    width: 190px;
+    height: 52px;
+}
+
+.contentForButton>button>img {
+    margin-left: 15px;
+}
+
+.backHead {
+    background-image: url(./background.png);
+    background-size: cover, contain;
+    height: 110vh;
+}
+
+.leftContent>h1 {
+    justify-content: center;
+    flex-direction: column;
+    font-size: 58px;
+    width: 509px;
+    line-height: 70px;
+    color: white;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containerForMainHeaderText {
+    justify-content: center;
+    display: flex;
+
+}
+
+.SbName {
+    font-size: 20px;
+    width: 326px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containerForBtn>button {
+    background-color: #23A6F0;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    padding-inline: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-inline: 10px;
+    border-radius: 20px;
+}
+
+.containerForBtn>button:hover {
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.leftContent {
+    line-height: 30px;
+}
+
+.contentForBlock {
+    line-height: 40px;
+    background-color: white;
+    padding-inline: 40px;
+    border-radius: 30px;
+    padding-bottom: 40px;
+}
+
+.TitleCardForPage {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.Input {
+    background-color: #E6E6E6;
+    width: 350px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    outline: none;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.containerForMainHeaderText {
+    margin-top: 100px;
+    gap: 130px;
+}
+
+.CardsButton {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px !important;
+    padding-inline: 20px;
+    border: none;
+    background-color: #23A6F0;
+    color: white;
+    font-size: 20px;
+
+    align-items: center;
+    margin: auto;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.MainTxtHeader{
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.InfoForHeaderMAinTxt{
+    display: flex;
+    width: 470px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 30px;
+
+}
+.headerIconContent{
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    background-color: #23A6F0;
+    width: 329px;
+    align-items:first baseline;
+
+}
+.icontcont{
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 50%;
+    
+    background-color: white;
+}
+.txtContHeader
+{
+    font-size: 20px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2px;
+font-size: 15px;
+color: white;
+}
+.containerForCardElement{
+    flex-wrap: wrap;
+    margin-bottom: 400px;
+    justify-content: space-around;
+    display: flex;
+}
+ul{
+    margin-top: 20px !important;
+    list-style: none;
+    width: max-content;
+    margin: auto;
+}
+li{
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    color: #737373;
+}
+.footerCarTxt{
+    border: 1px solid #c7c7c7;
+    border-radius: 0px 0px 10px 10px ;
+}
+.cardContentTxt{
+    margin-bottom: 30px;
+}
+.contentLink{
+    gap: 54px;
+}
+.mainfootertxtpage{
+    width: 130px;
+}
+.allFooterContent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.blockItem{
+    margin-bottom: 100px;
+}
